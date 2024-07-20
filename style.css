@@ -1,0 +1,267 @@
+body {
+    background-color: 
+    #f5f3eb;
+}
+
+
+h1 {
+    color: #ACE1AF;
+    font-size: 7rem;
+    font-weight: 300;
+}
+
+p{
+    line-height: 175%;
+    color: #5a5a5a;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #ACE1AF;
+}
+
+
+
+span.fs-4{
+    color: #ACE1AF;
+}
+
+h2{
+    color: #282828;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+#code{
+    color: #ACE1AF;
+    padding-top: 4px;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #282828;
+    --bs-nav-link-hover-color: #7a9f7b;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+}
+
+svg{
+    color: #fff6e7;
+}
+
+#special{
+    border: 5px solid #282828;
+    border-radius: 10px;
+    background-color: 
+#fff6e7;
+}
+
+.container {
+    color: #282828;
+    height: fit-content;
+    width: auto;
+    align-content: center;
+    border-radius: 10pt;
+}
+
+#white{
+    background-color: #fff;
+    border-radius: 10pt;
+}
+
+.vh{
+    height: 100vh;
+}
+
+#section-title{
+    background-color: #fff;
+    border-radius: 10pt;
+    width: fit-content;
+    justify-content: start;
+}
+
+#welcome>.container{
+    background-color: #fff;
+}
+
+.container-sm{
+    width: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ACE1AF;
+    --bs-btn-border-color: #ACE1AF;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #282828;
+    --bs-btn-hover-border-color: #282828;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #282828;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ACE1AF;
+    --bs-btn-disabled-border-color: #ACE1AF;
+}
+
+/* .btn-primary {
+
+    border-radius: 5pt !important;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ACE1AF;
+    --bs-btn-border-color: #ACE1AF;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #7a9f7b;
+    --bs-btn-hover-border-color: ;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #282828;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ACE1AF;
+    --bs-btn-disabled-border-color: #ACE1AF;
+    
+    
+} */
+
+.link-secondary {
+    color: #ACE1AF !important;
+}
+
+
+
+
+section{
+    margin-bottom: 5rem;
+}
+
+img{
+border-radius: 5pt;
+}
+
+#me{
+    border-radius: 10pt;
+}
+
+header{
+    background-color: #ffffff;
+    border-radius: 10pt;
+    
+}
+
+.paragraph{
+    font-size: 30pt !important;
+    text-align: left;
+    line-height: 150%;
+}
+
+@media (max-width: 1000px){
+    h1{
+        font-size: 60pt;
+    }
+    
+    #code{
+        font-size: 30pt;
+    }
+
+}
+
+@media (max-width: 770px){
+    #code{
+        margin-bottom: 0px;
+        padding-bottom: 0;
+    }
+
+@media (max-width: 950px){
+    #smaller{
+        font-size: 20pt !important;
+    }
+
+    #fact{
+        justify-content: center !important;
+        align-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
+}
+
+.facts{
+    background-color: #ACE1AF;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10pt;
+    height: 250px;
+    width: 250px;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+h4{
+    text-align: center;
+}
+
+#fact{
+    text-align: center;
+}
+
+
+
+#fact h2{
+    color: #fff;
+    font-weight: 400;
+}
+
+#fact p{
+    color: #7a9f7b;
+    
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.green{
+    color: #ACE1AF !important;
+}
+
+.fw-bold{
+    font-weight: 500 !important;
+}
+
+.feature-icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: .75rem;
+}
+
+svg{
+    height: 50%;
+    width: 50%;
+}
+
+.text-bg-primary {
+    color: #fff !important;
+    background-color: #ACE1AF !important;
+}
+
+span{
+    font-size: 12.5pt;
+    color: #7a9f7b;
+}
+
+
+
+#button2{
+    justify-content: center;
+    height: 125px;
+    width: 125px;
+    border-radius: 10pt;
+    font-size: 20pt;
+}
